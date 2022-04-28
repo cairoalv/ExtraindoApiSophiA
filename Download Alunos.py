@@ -31,5 +31,4 @@ for aluno in url:
 print(TurmaAluno)
 
 dados = pd.DataFrame(list(zip(CodAluno, NomeAluno, EmailAluno)), columns=['CodigoExterno','Nome','Email'])
-
 dados.to_excel('Alunos.xlsx', index = False)
